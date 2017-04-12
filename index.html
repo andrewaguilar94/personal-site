@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Andrew Aguilar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="startingHomepageStyle.css">
+    <!--Importing Bootstrap &jQuery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Importing Roboto Font Family-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:100" rel="stylesheet">
+    <!--Importing FA Icons-->
+    <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--Navbar Section-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="topNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="topNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#event">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="profileBackground">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1> ANDREW AGUILAR </h1>
+                    <a href="#collapse1" data-toggle="collapse">
+                        <img src="profilePic1.jpg" class="img-responsive img-circle profile" style="display: inline" alt="profilePic">
+                    </a>
+                    <div id="collapse1" class="collapse">
+                        <p>You found me!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About me Section-->
+    <div id="about" class="container text-center">
+        <h1>ABOUT ME</h1>
+        <h4>Coming from a small town and a small school, I've always dreamt of being part of a fast paced lifestyle, and a challenging
+            workplace. In order to offset the fast pace I crave, my hobbies have revolved around a somewhat meditative process.
+            While I play games and watch movies like anyone else, I also like to spend my extra time baking, exploring museums,
+            and building miniature robot models from one of my favorite shows. Although my hobbies tend to paint me as a
+            homebody, I love to get out and experience what the world has to offer. I've made it a point to travel somewhere
+            new, at least once every year, and so far I have visited Tokyo and New York City (Plus a few beach trips between
+            those). I am fueled by an urge to consistently learn and experience new things, always making sure I have a challenge
+            to face.</h4>
+        <br>
+    </div>
+    <!--Projects Section-->
+    <div class="background1">
+        <div id="event" class="container">
+            <h1 class="text-center">PROJECTS</h1>
+            <h4 class="text-center">These are some of the project I have completed,<br> and some of the projects I'm working on!</h4>
+            <div class="row text-center">
+                <div class="col-sm-12 projectPictures">
+                    <div class="col-sm-6 projectPicture">
+                        <img src="personalWebsiteCode.png" alt="placeholderThumb" width="300" height="300">
+                        <h4>Personal Website</h4>
+                        <p>I used a combination of jquery and bootstrap to make this page look great!</p>
+                    </div>
+                    <div class="col-sm-6 projectPicture">
+                        <img src="personalWebsiteCode.png" alt="placeholderThumb" width="300" height="300">
+                        <h4>Website Rewrite</h4>
+                        <p>Currently rewriting the page with ReactJS, as well as fixes for the Contact form</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact Section-->
+    <div id="contact" class="container">
+        <h1 class="text-center">CONTACT</h1>
+        <h4 class="text-center"><em>Send me an email!</em></h4>
+        <h3 class="text-center"><em>Currently Under Construction</em></h3>
+        <div class="row">
+            <!--Save this form for email only!
+                Implement PHP scripts to send email to main box-->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" placeholder="Email" type="email" required>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>Find me on Social Media:</p>
+        <p>
+            <a href="https://www.facebook.com/andrewaguilar0718" data-toggle="tooltip" title="Facebook" target="_blank"><span class="socialIcons"><i class="fa fa-facebook-official fa-2x"></i></span></a>
+            <a href="https://github.com/andrewaguilar94" data-toggle="tooltip" title="GitHub" target="_blank"><span class="socialIcons"><i class="fa fa-github-square fa-2x"></i></span></a>
+            <a href="#home" data-toggle="tooltip" title="Instagram"><span class="socialIcons"><i class="fa fa-instagram fa-2x"></i></span></a>
+            <a href="https://www.linkedin.com/in/andrew-aguilar-2b8117122/" data-toggle="tooltip" title="LinkedIn" target="_blank"><span class="socialIcons"><i class="fa fa-linkedin-square fa-2x"></i></span></a>
+        </p>
+        <p>
+            <span class="glyphicon glyphicon-map-marker info"></span> Raleigh, NC
+            <span class="glyphicon glyphicon-phone info"></span> +1(919)895-2050
+            <span class="glyphicon glyphicon-envelope info"></span> andrewaguilar94@gmail.com
+        </p>
+    </footer>
+    <!--Scripts for smooth scrolling-->
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            $(".navbar a, footer a[href='#home']").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
