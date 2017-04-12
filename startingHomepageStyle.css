@@ -2,7 +2,7 @@ body, .projectPicture h4 {
     font-family: 'Roboto', sans-serif !important;
 }
 
- h4, p{
+ h4, p {
     font-family: 'Roboto Condensed', sans-serif !important;
  }
 
@@ -15,12 +15,12 @@ body, .projectPicture h4 {
 }
 
 .container.profileContainer {
-    background: #2d2d30;
+    background: #424242;
     color: #bdbdbd;
 }
 
 .profileBackground {
-    background: #2d2d30;
+    background: #424242;
     color: #bdbdbd;
 }
 
@@ -29,6 +29,10 @@ body, .projectPicture h4 {
     filter: grayscale(90%);
     max-height: 250px;
     padding: 15px;
+}
+
+.about {
+    background: #e0e0e0;
 }
 
 .placeholderImg {
@@ -43,14 +47,6 @@ body, .projectPicture h4 {
     border-color: #f1f1f1;
 }
 
-.carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%);
-    width: 100%;
-    height: 20% !important;
-    margin: auto;
-}
-
 @media (max-width: 600px) {
     .carousel-caption {
         display: none;
@@ -58,7 +54,7 @@ body, .projectPicture h4 {
 }
 
 .background1 {
-    background: #2d2d30;
+    background: #424242;
     color: #bdbdbd;
 }
 
@@ -103,6 +99,10 @@ body, .projectPicture h4 {
     color: #000;
 }
 
+.contact {
+    background-color: #e0e0e0;
+}
+
 textarea{
     resize: none;
 }
@@ -124,11 +124,11 @@ textarea{
 
 .navbar {
     margin-bottom: 0;
-    background-color: #2d2d30 !important;
+    background-color: #1b1b1b !important;
     border: 0 !important;
     font-size: 11px !important;
     letter-spacing: 4px;
-    opacity: 0.9;
+    box-shadow: 5px #1b1b1b;
 }
 
 .navbar li a, .navbar .navbar-brand {
