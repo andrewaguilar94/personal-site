@@ -1,3 +1,6 @@
+/*ToDo: New CSS for site idea; full size html background white; 
+    square color image center; 4 centered square social media buttons*/
+
 body, .projectPicture h4 {
     font-family: 'Roboto', sans-serif !important;
 }
@@ -10,110 +13,52 @@ body, .projectPicture h4 {
     padding: 80px 120px;
 }
 
-.container.profileContainer {
-    background: #424242;
-    color: #bdbdbd;
+body {
+    height: 100vh;
 }
 
-.profileBackground {
-    background: #424242;
-    color: #fff;
+#main_container {
+    height: 100vh;
 }
 
-.profile {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%);
-    max-height: 250px;
-    padding: 15px;
+#content_container {
+    position: absolute;
+    bottom: 50px;
 }
 
-.about {
-    background: #e0e0e0;
+div#profile {
+    text-align: center;
 }
 
-.background1 {
-    background: #424242;
-    color: #fff;
+div#icons {
+    text-align: center;
 }
 
-.background1 h3 {
-    color: #fff;
-}
-
-.projectPictures img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-.projectPicture {
-    padding: 15px;
-    border-radius: 0 !important;
-    border: none;
-    background-color: #fff;
-    color: #000;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #f1f1f1;
-    border-radius: 0 !important;
-    transition: 0.2s;
-}
-
-.btn:hover {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-}
-
-.contact {
-    background-color: #e0e0e0;
-}
-
-textarea{
-    resize: none;
-}
-
-.form-control {
-    border-radius: 0 !important;
-}
-
-.navbar {
-    margin-bottom: 0;
-    background-color: #1b1b1b !important;
-    border: 0 !important;
-    font-size: 11px !important;
-    letter-spacing: 4px;
-    box-shadow: 5px #1b1b1b;
-}
-
-.navbar li a, .navbar {
-    color: #fff !important;
-}
-
-.navbar-nav li a:hover {
-    background-color: #424242 !important;
-}
-
-.navbar-nav li.active a {
-    color: #fff !important;
-    background-color: #424242 !important;
-}
-
-footer {
-    background-color: #424242;
-    color: #fff;
-    padding: 32px;
-}
-
-footer a {
-    color: #f5f5f5;
-}
-
-footer a:hover {
-    color: #777;
+a.fa {
+    display: block;
+    padding: 25px;
+    font-size: 30px;
+    min-width: 25px;
+    text-align: center;
     text-decoration: none;
+    margin: 5px 5px;
+    background: white;
+    color: black;
+    border: 5px solid black;
+  }
+
+  .fa:hover {
+    text-decoration: none;
+    background: black;
+    color: white;
+    border: 5px solid white;
+}
+
+img.profile {
+    max-height: 350px;
+    padding: 15px;
+    border: 5px solid black;
+    background: white;
 }
 
 .row {
@@ -121,10 +66,3 @@ footer a:hover {
     padding: 25px;
 }
 
-.socialIcons {
-    padding: 25px;
-}
-
-span.info {
-    padding: 25px;
-}
