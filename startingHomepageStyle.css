@@ -15,10 +15,12 @@ body, .projectPicture h4 {
 
 body {
     height: 100vh;
+    width: 100vw;
 }
 
 #main_container {
     height: 100vh;
+    width: 100vw;
 }
 
 #content_container {
@@ -45,13 +47,13 @@ a.fa {
     background: white;
     color: black;
     border: 5px solid black;
+    transition: background .2s, color .2s;
   }
 
   .fa:hover {
     text-decoration: none;
     background: black;
     color: white;
-    border: 5px solid white;
 }
 
 img.profile {
@@ -59,10 +61,24 @@ img.profile {
     padding: 15px;
     border: 5px solid black;
     background: white;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: -webkit-filter .2s, filter .2s;
 }
 
-.row {
+img.profile:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+div.row {
     margin: auto;
     padding: 25px;
 }
 
+div.row#wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vw;
+}
